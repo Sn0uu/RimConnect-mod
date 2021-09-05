@@ -50,13 +50,15 @@
     <Compile Include="Actions\Colonists\WorstColonistAction.cs" />
     <Compile Include="Actions\Colonists\ColonistList.cs" />
     <Compile Include="Actions\Events\AnestheticRandomColonistAction.cs" />
+    <Compile Include="Actions\Events\AnimalMetamorphosisWildAction.cs" />
+    <Compile Include="Actions\Events\AnimalMetamorphosisTameAction.cs" />
     <Compile Include="Actions\Events\MeteoriteAction.cs" />
     <Compile Include="Actions\Events\PawnPornAction.cs" />
     <Compile Include="Actions\Events\PoorBedsAction.cs" />
     <Compile Include="Actions\Events\MasterworkBedsAction.cs" />
     <Compile Include="Actions\Events\ClearAddictionsAction.cs" />
     <Compile Include="Actions\Events\LuciferiumAddictionAction.cs" />
-    <Compile Include="Actions\Events\AnimalMetamorphosisAction.cs" />
+    <Compile Include="Actions\Events\AnimalMetamorphosisAllAction.cs" />
     <Compile Include="Actions\Events\HealingNanitesAction.cs" />
     <Compile Include="Actions\Events\BionicPlagueAction.cs" />
     <Compile Include="Actions\Events\CleanAllFilthAction.cs" />
@@ -151,10 +153,6 @@
   <ItemGroup>
     <Reference Include="Assembly-CSharp">
       <HintPath>..\..\..\..\..\games\Steam\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\games\Steam\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.dll</HintPath>
     </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -8,11 +8,11 @@ using Verse;
 
 namespace RimConnection
 {
-    class AnimalMetamorphosisAction : Action
+    class AnimalMetamorphosisTameAction : Action
     {
-        public AnimalMetamorphosisAction()
+        public AnimalMetamorphosisTameAction()
         {
-            Name = "Animal Metamorphosis";
+            Name = "(Tame) Animal Metamorphosis";
             Description = "Turns out your entire map is covered in shapeshifters";
             Category = "Event";
         }
