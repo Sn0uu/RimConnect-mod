@@ -29,7 +29,7 @@ namespace RimConnection
 
             List<Pawn> animals = things.Where(thing => thing is Pawn)
                   .Select(pawn => (Pawn)pawn)
-                  .Where(pawn => pawn.AnimalOrWildMan())
+                  .Where(pawn => pawn.AnimalOrWildMan() && pawn.Faction == Faction.OfPlayer)
                   .ToList();
 
             animals.ForEach(animal =>
